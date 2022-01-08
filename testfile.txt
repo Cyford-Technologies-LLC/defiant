@@ -1,0 +1,11 @@
+Stands for "PHP: Hypertext Preprocessor," a recursive acronym. PHP is a scripting language web developers use to create dynamic websites. It is often installed by default on Apache web servers, alongside MySQL as part of a "LAMP" configuration.
+
+When a website visitor accesses a [PHP page], the web server processes, or "parses," the PHP code, which can output HTML to the webpage. In the example below, the PHP function gets the local time and date from the server and inserts it into the HTML. (The PHP code starts and ends with the <?php and ?> tags. "F d, Y" formats the date as December 31, 2021.)
+
+<p>The current date is <?php echo date("F d, Y"); ?></p>
+PHP scripts can range from simple one-line commands to complex functions. Some PHP-based websites generate nearly all webpage content dynamically using a series of PHP scripts. While early versions of PHP were not object-oriented langauge, PHP3 introduced support for classes, including object attributes and methods. Developers can create custom object libraries and import them into various PHP pages, similar to a compilied language.
+
+Because PHP code is processed before the [HTML is loaded], users cannot view the PHP code within a webpage. They can only see the HTML output by the PHP scripts.
+Much of PHP's syntax is similar to other languages such as [C++, Java, and Perl]. However, PHP contains several proprietary functions, including MySQL-specific methods for accessing records from a MySQL database. Because of its integration with MySQL, its consistent maintenance, and overall ease of use, PHP remains a popular choice for [creating dynamic websites].
+
+File extension: .PHP
