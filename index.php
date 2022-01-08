@@ -13,7 +13,7 @@ preg_match_all($pattern, $file, $matches, PREG_SET_ORDER, 0);
 </head>
 
 <body>
-    <a href="testfile.txt" target=_blank>Text File</a>
+    <p>Click to view  <a href="testfile.txt" target=_blank>Text File</a></p> 
 
     <?php
     var_dump($matches);
